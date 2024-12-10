@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <groups>
+        <run>
+            <include name="sanity"></include>
+            <include name="smoke"></include>
+            <include name="regression"></include>
+        </run>
+    </groups>
+    <test name="AddUserPage" >
+        <classes>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"/>
+            <class name="com.orangehrmlive.demo.testsuite.UserTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
