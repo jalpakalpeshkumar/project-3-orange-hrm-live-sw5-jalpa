@@ -77,7 +77,7 @@ public class UserTest extends BaseTest {
         addUserPage.enterEmployeeName("Ananya Dash");
 
         //	enter Username
-        addUserPage.enterUserName("Payal");
+        addUserPage.enterUserName("kalpesh");
 
         //	Select status "Disable"
 
@@ -120,7 +120,7 @@ public class UserTest extends BaseTest {
 //        verifyText(actualSystemsText,expectedSystemUsersText,"System Users text not displayed");
 
         //	Enter Username
-        addUserPage.enterUserName("Neel");
+        addUserPage.enterUserName("jalpa");
 
         //	Select User Role
         //	Select Satatus
@@ -135,7 +135,7 @@ public class UserTest extends BaseTest {
         for (WebElement row : resultRows) {
             String username = row.findElement(RelativeLocator.with(By.tagName("input")).below(By.xpath("//label[normalize-space()='Username']"))).getText();
 
-            if (username.equals("payal9")) { // Replace "testuser" with the username you're verifying
+            if (username.equals("jalpa13")) { // Replace "testuser" with the username you're verifying
                 userFound = true;
                 break;
             }
@@ -171,7 +171,7 @@ public class UserTest extends BaseTest {
 //        verifyText(actualSystemsText,expectedSystemUsersText,"System Users text not displayed");
 
         //	Enter Username
-        addUserPage.enterUserName("Neel");
+        addUserPage.enterUserName("jalpa");
 
         //	Select User Role
         //	Select Satatus
@@ -218,7 +218,7 @@ public class UserTest extends BaseTest {
 //        verifyText(actualSystemsText,expectedSystemUsersText,"System Users text not displayed");
 
         //	Enter Username
-        addUserPage.enterUserName("Neel");
+        addUserPage.enterUserName("jalpa");
 
         //	Select User Role
         //	Select Satatus
